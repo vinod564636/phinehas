@@ -8,8 +8,8 @@ env:
 
 jobs:
   test_context_variables:
-    runs-on: ubuntu latest
-    steps:
+   runs-on: ubuntu latest
+   steps:
       -name:"Checking Context Variable"
        runs:|
          echo "Repository Name:${{github.repository}}"
